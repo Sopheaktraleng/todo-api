@@ -22,7 +22,4 @@ export class Task {
 
   @UpdateDateColumn()
   updatedAt: Date;
-
-  @Column({ default: false })
-  uncompleted: boolean;
 }
